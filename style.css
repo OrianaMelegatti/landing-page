@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family:'Lucida Sans';
+    font-size: 15px;
+    
+}
+
+body{
+    background-color: antiquewhite;
+}
+.header{
+    background-color: crimson;
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+.logo-container .logo{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+.logo-container .logo:hover{
+    transform: scale(1.2);
+}
+.header .nav-links{
+list-style: none;
+}
+.header .nav-links li{
+    display:inline-block;
+    padding: 0 20px;
+}
+.header .nav-links a{
+font-size: 700;
+color: bisque;
+text-decoration: none;
+}
+.header .nav-links li:hover{
+    transform:scale(1.1)
+}
+.header .nav-links li a:hover{
+    color: darkred;
+}
